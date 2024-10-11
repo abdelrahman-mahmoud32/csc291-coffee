@@ -25,4 +25,28 @@
 
 //variable for total money inserted into the machine
 float current_revenue = 0.0;
+#define admin_password "Open333"
 
+// Quantity variables for each ingredient
+int coffee_beans_quantity = 100;  
+int water_quantity = 300; 
+int milk_quantity = 300; 
+int chocolate_quantity = 150;
+// Function prototypes
+void displayCoffeeMenu();
+void orderCoffee();
+void adminMode();
+void checkIngredientLevels();
+void replenishIngredients();
+void changeCoffeePrice();
+void displaySales();
+void alertLowIngredients();
+void processPayment(float price);
+
+int main() {
+    while(1){
+        printf("\nMenu\n")
+        printf("Choose a type of coffee")
+        
+    }
+}
